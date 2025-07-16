@@ -1,3 +1,5 @@
+import os
+token = os.getenv("DISCORD_BOT_TOKEN")
 
 import discord
 from discord.ext import commands
